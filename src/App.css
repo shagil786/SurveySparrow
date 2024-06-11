@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+}
+
+.buttonR {
+  border-radius: 10px;
+  border: 1px solid green;
+  color: green;
+  outline: none;
+  background-color: transparent;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+}
+
+.rect {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.labels {
+  font-size: 12px;
+  stroke: #fff;
+}
+
+.description {
+  font-size: 12px;
+  stroke: #6CB4EE;
+  letter-spacing: .8px;
+}
